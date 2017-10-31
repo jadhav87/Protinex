@@ -15,6 +15,15 @@
 		1D3D9B981E84E08600E48AD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D3D9B961E84E08600E48AD9 /* LaunchScreen.storyboard */; };
 		1D3D9BA31E84E08600E48AD9 /* SelfiAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3D9BA21E84E08600E48AD9 /* SelfiAppTests.m */; };
 		1D3D9BAE1E84E08600E48AD9 /* SelfiAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3D9BAD1E84E08600E48AD9 /* SelfiAppUITests.m */; };
+		1D5979C61F45622C001ED12D /* bg_main.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D5979C51F45622C001ED12D /* bg_main.png */; };
+		1D5979CF1F456272001ED12D /* bg_landcsap_old.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D5979C71F456272001ED12D /* bg_landcsap_old.png */; };
+		1D5979D01F456272001ED12D /* bg_landcsap.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D5979C81F456272001ED12D /* bg_landcsap.png */; };
+		1D5979D11F456272001ED12D /* bg_main.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D5979C91F456272001ED12D /* bg_main.png */; };
+		1D5979D21F456272001ED12D /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D5979CA1F456272001ED12D /* bg.png */; };
+		1D5979D31F456272001ED12D /* cam_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D5979CB1F456272001ED12D /* cam_blue.png */; };
+		1D5979D41F456272001ED12D /* ic_launcher.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D5979CC1F456272001ED12D /* ic_launcher.png */; };
+		1D5979D51F456272001ED12D /* landscap_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D5979CD1F456272001ED12D /* landscap_logo.png */; };
+		1D5979D61F456272001ED12D /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D5979CE1F456272001ED12D /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,15 @@
 		1D3D9BA91E84E08600E48AD9 /* SelfiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D3D9BAD1E84E08600E48AD9 /* SelfiAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelfiAppUITests.m; sourceTree = "<group>"; };
 		1D3D9BAF1E84E08600E48AD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D5979C51F45622C001ED12D /* bg_main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_main.png; sourceTree = "<group>"; };
+		1D5979C71F456272001ED12D /* bg_landcsap_old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_landcsap_old.png; sourceTree = "<group>"; };
+		1D5979C81F456272001ED12D /* bg_landcsap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_landcsap.png; sourceTree = "<group>"; };
+		1D5979C91F456272001ED12D /* bg_main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_main.png; sourceTree = "<group>"; };
+		1D5979CA1F456272001ED12D /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		1D5979CB1F456272001ED12D /* cam_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cam_blue.png; sourceTree = "<group>"; };
+		1D5979CC1F456272001ED12D /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = "<group>"; };
+		1D5979CD1F456272001ED12D /* landscap_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = landscap_logo.png; sourceTree = "<group>"; };
+		1D5979CE1F456272001ED12D /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +119,7 @@
 		1D3D9B871E84E08600E48AD9 /* SelfiApp */ = {
 			isa = PBXGroup;
 			children = (
+				1D3D9BBB1E84E1D400E48AD9 /* images */,
 				1D3D9B8B1E84E08600E48AD9 /* AppDelegate.h */,
 				1D3D9B8C1E84E08600E48AD9 /* AppDelegate.m */,
 				1D3D9B8E1E84E08600E48AD9 /* ViewController.h */,
@@ -138,6 +157,22 @@
 				1D3D9BAF1E84E08600E48AD9 /* Info.plist */,
 			);
 			path = SelfiAppUITests;
+			sourceTree = "<group>";
+		};
+		1D3D9BBB1E84E1D400E48AD9 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1D5979C71F456272001ED12D /* bg_landcsap_old.png */,
+				1D5979C81F456272001ED12D /* bg_landcsap.png */,
+				1D5979C91F456272001ED12D /* bg_main.png */,
+				1D5979CA1F456272001ED12D /* bg.png */,
+				1D5979CB1F456272001ED12D /* cam_blue.png */,
+				1D5979CC1F456272001ED12D /* ic_launcher.png */,
+				1D5979CD1F456272001ED12D /* landscap_logo.png */,
+				1D5979CE1F456272001ED12D /* logo.png */,
+				1D5979C51F45622C001ED12D /* bg_main.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +242,7 @@
 				TargetAttributes = {
 					1D3D9B841E84E08600E48AD9 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MDD58JY298;
 						ProvisioningStyle = Automatic;
 					};
 					1D3D9B9D1E84E08600E48AD9 = {
@@ -246,9 +282,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D5979D01F456272001ED12D /* bg_landcsap.png in Resources */,
+				1D5979D11F456272001ED12D /* bg_main.png in Resources */,
+				1D5979D31F456272001ED12D /* cam_blue.png in Resources */,
+				1D5979D21F456272001ED12D /* bg.png in Resources */,
 				1D3D9B981E84E08600E48AD9 /* LaunchScreen.storyboard in Resources */,
+				1D5979D51F456272001ED12D /* landscap_logo.png in Resources */,
 				1D3D9B951E84E08600E48AD9 /* Assets.xcassets in Resources */,
+				1D5979C61F45622C001ED12D /* bg_main.png in Resources */,
+				1D5979D61F456272001ED12D /* logo.png in Resources */,
 				1D3D9B931E84E08600E48AD9 /* Main.storyboard in Resources */,
+				1D5979CF1F456272001ED12D /* bg_landcsap_old.png in Resources */,
+				1D5979D41F456272001ED12D /* ic_launcher.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,10 +469,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MDD58JY298;
 				INFOPLIST_FILE = SelfiApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.artiligence.SelfiApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -435,10 +482,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MDD58JY298;
 				INFOPLIST_FILE = SelfiApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.artiligence.SelfiApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -507,6 +556,7 @@
 				1D3D9BB41E84E08600E48AD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D3D9BB51E84E08600E48AD9 /* Build configuration list for PBXNativeTarget "SelfiAppTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +565,7 @@
 				1D3D9BB71E84E08600E48AD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D3D9BB81E84E08600E48AD9 /* Build configuration list for PBXNativeTarget "SelfiAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +574,7 @@
 				1D3D9BBA1E84E08600E48AD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
